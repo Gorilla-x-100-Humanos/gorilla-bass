@@ -16,7 +16,7 @@
         <h1>Gorillaz X 100 Homens Batalha Épica</h1>
     </header>
     <main>
-        <!-- So aparece quando alguem ganha -->
+        <!-- Só aparece quando alguem ganha -->
         <div class="winner_container">
             <p>Ganhador</p>
         </div>
@@ -43,7 +43,7 @@
             
         </div>
         
-        <!-- Containe rpara guardar guerreiros -->
+        <!-- Container para guardar guerreiros -->
          <div class="container_utilitario">
             <div class="guess_container">
                 <input type="text" name="numero_guess" id="numero_guess" placeholder="Adivinhe 0 - 3">
@@ -54,7 +54,19 @@
     
            
          </div>
-       
+
+         <div id="container_batalha">
+            <img id="gorila" src="/img/gorilla.jpg" alt="gorilla">
+            <img id="homens" src="/img/100homens.jpg" alt="homens">
+            <audio id="gorila_audio" src="./assets/gorila2.mp3" preload="auto"></audio>
+            <audio id="homen_audio" src="./assets/100homens.mp3"></audio>
+        </div>
+
+        <div id="container_button">
+            <button class="btn atacar">Atacar</button>
+            <button class="btn defender">Defender</button>
+            <button class="btn refresh">Novo Jogo</button>
+        </div>
     </main>
 
     <footer>
