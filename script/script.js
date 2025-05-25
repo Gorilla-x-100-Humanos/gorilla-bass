@@ -34,7 +34,7 @@ defender_btn.style.display='none';
 numero_guess.style.display='none';
 
 let guerreiros_vivos = 20
-//Função para colocar os guerriros dentro.
+//Função para colocar os guerriros dentro
 function funcao_fuerreiros_vivos() {
     contagem_geuerreiros.innerHTML = '';
     for (let i = 0; i < guerreiros_vivos; i++) {
@@ -72,7 +72,7 @@ atacar_btn.addEventListener("click",()=>{
         }else{
             homens.style.transform = "translateX(-400px)";
         }
-       
+    
         setTimeout(()=>{
             homens.style.transform = "translateX(0px)";
         },600)
@@ -109,7 +109,7 @@ atacar_btn.addEventListener("click",()=>{
             homens_pontos.innerHTML = homen_point
         }
      
-        //Aqui para diminui os guerreiros da contagem.
+        //Aqui para diminui os guerreiros da contagem
         guerreiros_vivos -= 5;
         funcao_fuerreiros_vivos();
 
@@ -121,10 +121,8 @@ atacar_btn.addEventListener("click",()=>{
             winner_container.style.display = "flex";
             if (homen_point < 5) {
                 gorila.style.transform = "scale(1.3) translateX(80px)";
-                
             } else {
                 homens.style.transform = "scale(1.3) translateX(-80px)";
-              
             }
               refresh.style.display = "block";
               defender_btn.style.display = "none";
@@ -151,7 +149,7 @@ atacar_btn.addEventListener("click",()=>{
     }
 })
 
-//Apertar o btn de defender com input e fazer as comparações.
+//Apertar o btn de defender com input e fazer as comparações
 defender_btn.addEventListener("click",()=>{
 
     //Pegar o valor do input e compara com o guess_denfender_random
@@ -176,7 +174,7 @@ defender_btn.addEventListener("click",()=>{
    }
 })
 
-//Para recomeçar o jogo.
+//Para recomeçar o jogo
 refresh.addEventListener("click", ()=> {
     location.reload();
 });git 
