@@ -255,3 +255,79 @@ input::placeholder {
         font-size: 12px;
     }
 }
+
+@media (min-width: 601px) and (max-width: 761px){
+    main{
+        min-height: 90vh;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+    .winner_container{
+        height: 80px;
+    }
+    .winner_container p{
+        font-size: 20px;
+    }
+
+    #container_pontos{
+        width: 90vw;
+        justify-content: space-around; 
+    }
+    .pontos{
+        font-size: 16px;  
+    }
+    
+    #forca{
+        width: 90px;
+        height: 55px;
+        margin-bottom: 10px;
+    }
+    .container_utilitario{
+        padding-right:  0px;
+        padding-left: 0px;
+        width: 90vw;
+        margin-bottom: 5px;
+    }
+    .guess_container{
+        width: 120px;
+        height: 40px;   
+    }
+    
+    #numero_guess{
+        width: 120px;
+        padding: 0 5px;
+    }
+
+    #contagem_geuerreiros{
+        width: 160px;
+        padding: 5px;
+        gap: 5px;
+    }
+    
+    #contagem_geuerreiros i{
+        font-size: 12px;
+    }
+    
+    #container_batalha{
+        justify-content: space-between;
+        padding: 0 5px;
+        margin-top: 10px;
+        width: 90vw;
+    }
+    
+    #container_batalha img{
+        width: 160px;
+        border: 8px solid white; 
+        border-radius: 10px;
+        transition: all 0.5s ease-in-out;
+    }
+    
+    #container_button{
+        width: 100vw;
+    }
+    .btn{
+        width: 90px;
+        height: 50px;
+        font-size: 12px;
+    }
+}
